@@ -1,7 +1,11 @@
 name: Let's Encrypt
 description: |
   Trusted SSL certificates at zero cost
+<<<<<<< HEAD
 version: 0.3.0
+=======
+version: 0.4.0
+>>>>>>> upstream/master
 category: Security
 maintainer: Jan Bruder <jan@rancher.com>
 license: The MIT License

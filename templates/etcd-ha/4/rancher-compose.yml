@@ -1,5 +1,9 @@
 .catalog:
+<<<<<<< HEAD
   version: 2.3.7
+=======
+  version: 2.3.7-beta.1
+>>>>>>> upstream/master
   minimum_rancher_version: v1.1.1
   questions:
   - variable: SCALE

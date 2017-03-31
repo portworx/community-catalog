@@ -1,7 +1,12 @@
 name: Chronos
 description: |
   Distributed, fault-tolerant cron replacement
+<<<<<<< HEAD
 version: v1
 category: Frameworks
 maintainer: James Oliver <joliver@rancher.com>
+=======
+version: v2
+category: Frameworks
+>>>>>>> upstream/master
 minimum_rancher_version: v1.0.0

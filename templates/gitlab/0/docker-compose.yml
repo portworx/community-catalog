@@ -1,5 +1,6 @@
 gitlab-server:
   ports:
+<<<<<<< HEAD
   - 22:22/tcp
   - 80:80/tcp
   labels:
@@ -8,6 +9,20 @@ gitlab-server:
   image: gitlab/gitlab-ce:8.5.1-ce.0
   volumes_from:
   - gitlab-data
+=======
+  - ${ssh_port}:22/tcp
+  - ${http_port}:80/tcp
+  - ${https_port}:443/tcp
+  labels:
+    io.rancher.sidekicks: gitlab-data
+  hostname: ${gitlab_hostname}
+  image: gitlab/gitlab-ce:latest
+  volumes_from:
+  - gitlab-data
+  environment:
+    GITLAB_OMNIBUS_CONFIG: |
+      external_url '${gitlab_omnipus_prefix}${gitlab_hostname}'
+>>>>>>> upstream/master
 
 gitlab-data:
   labels:
@@ -15,7 +30,11 @@ gitlab-data:
   entrypoint:
   - /bin/true
   hostname: gitdata
+<<<<<<< HEAD
   image: gitlab/gitlab-ce:8.5.1-ce.0
+=======
+  image: gitlab/gitlab-ce:latest
+>>>>>>> upstream/master
   volumes:
   - /etc/gitlab
   - /var/log/gitlab

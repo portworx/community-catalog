@@ -1,5 +1,9 @@
 name: Elasticsearch 2.x
 description: |
   Elasticsearch, you know for search!
+<<<<<<< HEAD
 version: 2.2.2-rancher1
+=======
+version: 2.4.3-rancher1
+>>>>>>> upstream/master
 category: ELK

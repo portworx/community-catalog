@@ -1,7 +1,12 @@
 name: Marathon
 description: |
   A production-grade container orchestration platform
+<<<<<<< HEAD
 version: v1.1.1
 category: Frameworks
 maintainer: James Oliver <joliver@rancher.com>
+=======
+version: v1.1.1-rancher2
+category: Frameworks
+>>>>>>> upstream/master
 minimum_rancher_version: v1.0.0

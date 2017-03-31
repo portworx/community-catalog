@@ -6,7 +6,11 @@
     - variable: "SDC_ACCESS_KEY"
       label: "Sysdig Cloud access key"
       description: "Your unique Sysdig Cloud access key - register for a Sysdig Cloud account at www.sysdig.com to receive a key."
+<<<<<<< HEAD
       type: "string"
+=======
+      type: "password"
+>>>>>>> upstream/master
       required: true
     - variable: "SDC_TAGS"
       label: "Sysdig Cloud tags"

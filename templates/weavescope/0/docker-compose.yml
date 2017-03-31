@@ -1,5 +1,9 @@
 weavescope-probe:
+<<<<<<< HEAD
   image: weaveworks/scope:0.11.1
+=======
+  image: weaveworks/scope:1.1.0
+>>>>>>> upstream/master
   privileged: true
   net: host
   pid: host
@@ -17,7 +21,11 @@ weavescope-probe:
   - "--no-app"
   - "weavescope-app"
 weavescope-app:
+<<<<<<< HEAD
   image: weaveworks/scope:0.11.1
+=======
+  image: weaveworks/scope:1.1.0
+>>>>>>> upstream/master
   ports:
   - "4040:4040"
   command:

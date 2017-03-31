@@ -1,4 +1,8 @@
 name: "Kibana 4"
 description: "Visualization dashboard"
+<<<<<<< HEAD
 version: "4.4.2-rancher1"
+=======
+version: "4.6.3-rancher1"
+>>>>>>> upstream/master
 category: ELK

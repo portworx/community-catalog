@@ -1,6 +1,11 @@
 .catalog:
   name: "Etcd"
   version: "2.3.6-rancher1"
+<<<<<<< HEAD
+=======
+  minimum_rancher_version: v1.1.1
+  maximum_rancher_version: v1.1.4
+>>>>>>> upstream/master
   description: |
     Distributed highly-available key-value store
   minimum_rancher_version: "v0.46.0"

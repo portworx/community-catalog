@@ -2,6 +2,10 @@
     name: "Convoy EFS"
     version: "v0.1.0"
     description: "Convoy EFS - Docker volume plugin"
+<<<<<<< HEAD
+=======
+    maximum_rancher_version: v1.1.99
+>>>>>>> upstream/master
     questions:
      - variable: "EFS_ID"
        description: "FS ID of AWS EFS"

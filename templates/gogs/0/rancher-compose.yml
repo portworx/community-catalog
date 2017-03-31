@@ -19,7 +19,11 @@
       type: "int"
     - variable: ssh_port
       description: "ssh port to access gogs cli"
+<<<<<<< HEAD
       label: "Ssh Port"
+=======
+      label: "SSH Port"
+>>>>>>> upstream/master
       required: true
       default: "222"
       type: "int"
@@ -27,7 +31,12 @@
       description: "mysql root password"
       label: "Mysql Password"
       required: true
+<<<<<<< HEAD
       default: "password"
       type: "string"
+=======
+      default: ""
+      type: "password"
+>>>>>>> upstream/master
 
 gogs:
