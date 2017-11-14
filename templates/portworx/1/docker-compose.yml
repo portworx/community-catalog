@@ -13,6 +13,7 @@ portworx:
     KVDB: ${kvdb}
     HDR_DIR: ${header_dir}
     USE_DISKS: ${use_disks}
+    ENABLE_ATTR_CACHE: true
   volumes:
      - /dev:/dev
      - ${header_dir}:${header_dir}
