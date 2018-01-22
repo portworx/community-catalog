@@ -81,7 +81,7 @@ spec:
           terminationMessagePath: "/tmp/px-termination-log"
           imagePullPolicy: Always
           args:
-            ["-k", "etcd:http://192.168.56.70:2379", "-c", ${cluster_id}, "-d", "enp0s8", "-m", "enp0s8", "-A", "-f", 
+            ["-k", "etcd:http://192.168.56.80:2379", "-c", "new_sen123", "-d", "enp0s8", "-m", "enp0s8", "-A", "-f", 
              "-x", "kubernetes"]
           env:
             - name: "PX_TEMPLATE_VERSION"
